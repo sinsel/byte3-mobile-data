@@ -2,3 +2,25 @@
     margin-right: 5px;
     margin-bottom: 5px;
 }
+
+#contents {
+	margin-top: 50px;
+}
+
+
+#question {
+	line-height: 1.5;
+}
+
+#answer {
+	line-height: 1.5;
+}
+
+#explanation {
+	margin-top: 50px;
+}
+
+#footer {
+	margin-top: 30px;
+	padding: 10px;
+}
