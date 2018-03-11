@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -16,7 +15,7 @@
     <!-- Bootstrap theme -->
     <link href="css/bootstrap-theme.min.css" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="css/theme.css" rel="stylesheet">
+    <link href="css/explore.css" rel="stylesheet">
   </head>
 
   <body role="document">
@@ -34,36 +33,57 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/">Home</a></li>
-            <li  class="active"><a href="about">About This Data Set</a></li>
-	    <li><a href="quality">Data Quality</a></li>
+            <li><a href="index">Home</a></li>
+            <li  class="active"><a href="about">About Data Set</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
-    <div class="container theme-showcase" role="main">
+    <div id= "contents" class="container theme-showcase">
 
-      <!-- Main jumbotron for a primary marketing message or call to action -->
-      <div class="jumbotron">
-	<h1>Accountability: About This Data Set</h1>
-        <p>Write a brief summary about the data set here</a></p>
+      <div class="alert alert-info text-center" role="alert">
+        <h4>Accountability: About This Data Set</h4>
+        <p>This dataset came from UNESCO Statistics and filtered according to topic, country and year to see whether the % of female researches decreased in the discussed time frame. </p>
       </div>
 
-    
       <div class="page-header">
 	<h2>Where did this data come from?</h2>
-	<p>fill in</p>
+	<p>The data came in from UNESCO Statistics (http://data.uis.unesco.org/#) 
+	<br>filtered on the topic of "Research and Experimental Development".</p>
       </div>
       
       <div class="page-header">
 	<h2>Who has access to it?</h2>
-	<p>fill in</p>
+	<p>It is a public and online dataset.</p>
       </div>
 
+     <div class="alert alert-info text-center" role="alert">
+        <h4>Quality: About This Data Set</h4>
+        <p>This dataset came from UNESCO Statistics and filtered according to topic, country and year to see whether the % of female researches decreased in the discussed time frame. </p>
+      </div>
+   
+      <div class="page-header">
+	<h2>Is the data complete?</h2>
+	<p>The data is complete between the years of 2001 to 2014. However for before 2001 or after 2014, 
+	there aren't any more data on the % female researchers compared to the total number of research and development personnel per ten thousand people in the labour force.
+	Since the measurement of % female researches only existed between the years 2001-2014 I chose to analyse that time frame. As a result, in the time frame that I chose, the data is complete, all data points were taken from the original dataset. </p>
+      </div>
+      
+      <div class="page-header">
+	<h2>Is the data coherent?</h2>
+	<p>Data is coherent because having around 30% female researches makes sense in the context of Turkey. 
+	It was also compatible with my assumptions that with the political changes in the country, the number of female researches would decrase. </p>
+      </div>
+
+      <div class="page-header">
+	<h2>Is the data correct?</h2>
+	<p>I compared a part of the data (Gross domestic expenditure on research and development) to Turkish Statistical Institute's <a href="http://www.tuik.gov.tr/PreTablo.do?alt_id=1082">data</a>. 
+	The numbers matched up with the Turkish government's official data sets. </p>
+      </div>
+      
 
     </div> <!-- /container -->
-
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
@@ -73,3 +93,4 @@
     <script src="js/docs.min.js"></script>
   </body>
 </html>
+
