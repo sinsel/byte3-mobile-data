@@ -33,7 +33,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index">Home</a></li>
+            <li><a href="/">Home</a></li>
             <li  class="active"><a href="about">About Data Set</a></li>
           </ul>
         </div><!--/.nav-collapse -->
@@ -44,42 +44,39 @@
 
       <div class="alert alert-info text-center" role="alert">
         <h4>Accountability: About This Data Set</h4>
-        <p>This dataset came from UNESCO Statistics and filtered according to topic, country and year to see whether the % of female researches decreased in the discussed time frame. </p>
+        <p>This dataset came from Selin's personal smartphone data collected using the AWARE Framework using a Samsung S6 Galaxy phone. Through the study the data from the accelereometer and gps sensors were collected. In addition, Google's activity recognition plug-in was used to detect activity using either gps or telecommunication provider data.</p>
       </div>
 
       <div class="page-header">
 	<h2>Where did this data come from?</h2>
-	<p>The data came in from UNESCO Statistics (http://data.uis.unesco.org/#) 
-	<br>filtered on the topic of "Research and Experimental Development".</p>
+	<p>This dataset came from Selin's personal smartphone data collected using the AWARE Framework using a Samsung S6 Galaxy phone. Through the study the data from the accelereometer and gps sensors were collected. In addition, Google's activity recognition plug-in was used to detect activity using either gps or telecommunication provider data.</p>
+     </p>
       </div>
       
       <div class="page-header">
 	<h2>Who has access to it?</h2>
-	<p>It is a public and online dataset.</p>
+	<p>The data was collected and stored on the cloud on a personal account. Currently, in addition to myself, Google and Trifacta Wrangler has access to it. Tableau also has access to a subset of the data. It is displayed publicly on this website and on Tableau public. However, it cannot be downloaded by anybody but myself.</p>
       </div>
 
      <div class="alert alert-info text-center" role="alert">
         <h4>Quality: About This Data Set</h4>
-        <p>This dataset came from UNESCO Statistics and filtered according to topic, country and year to see whether the % of female researches decreased in the discussed time frame. </p>
-      </div>
+        <p>Through the data collection pippeline, my phone and the gps was on most of the time. However, due to glitches during collection or me turning off the phone when I'm sleeping, there were many rows that was taken out.  
+       </div>
    
       <div class="page-header">
 	<h2>Is the data complete?</h2>
-	<p>The data is complete between the years of 2001 to 2014. However for before 2001 or after 2014, 
-	there aren't any more data on the % female researchers compared to the total number of research and development personnel per ten thousand people in the labour force.
-	Since the measurement of % female researches only existed between the years 2001-2014 I chose to analyse that time frame. As a result, in the time frame that I chose, the data is complete, all data points were taken from the original dataset. </p>
-      </div>
+	<p>The data is not complete. During cleaning, my approach was to delete rows that had missing data. Due to number of reasons, there were many instances when the google activity plugin did not record data for that minute. 
+	As a result,many data points were ignored. However, the total number of data points was still enough to generate a fairly accurate representation of my week due to the frequency of data collection. 
+	      </div>
       
       <div class="page-header">
 	<h2>Is the data coherent?</h2>
-	<p>Data is coherent because having around 30% female researches makes sense in the context of Turkey. 
-	It was also compatible with my assumptions that with the political changes in the country, the number of female researches would decrase. </p>
-      </div>
+	<p> Data is coherent because it highlights the routes that I usually take and the places I spend time in. The times also look right. Because two different datasets (gps and activity recognition plug-in) were merged and edited in Trifacta Wranler, they were edited in format to be coherent.
+	</div>
 
       <div class="page-header">
 	<h2>Is the data correct?</h2>
-	<p>I compared a part of the data (Gross domestic expenditure on research and development) to Turkish Statistical Institute's <a href="http://www.tuik.gov.tr/PreTablo.do?alt_id=1082">data</a>. 
-	The numbers matched up with the Turkish government's official data sets. </p>
+	<p> I have been to all the locations that the visualisation shows around the times that it shows that I was in. I was aslo mostly sitting or walking between school and my house. So believe that the data is mostly correct.  </p>
       </div>
       
 
@@ -93,4 +90,3 @@
     <script src="js/docs.min.js"></script>
   </body>
 </html>
-
